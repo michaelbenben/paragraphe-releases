@@ -1,0 +1,7 @@
+name: ProbeLinux
+on: workflow_dispatch
+jobs:
+  lin:
+    runs-on: ubuntu-latest
+    steps:
+      - run: uname -a
